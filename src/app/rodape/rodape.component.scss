@@ -1,0 +1,85 @@
+@import "../app.component.scss";
+
+footer {
+  border-top: 5px solid $cor-secundaria;
+  width: 100%;
+  height: 250px;
+  margin-top: 80px;
+  background-color: $preto;
+  color: $branco;
+
+  .container {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+
+    .rotas {
+      padding-left: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img {
+        width: 100px;
+        margin-bottom: 15px;
+      }
+      button {
+        height: 20px;
+        font-family: $fonte-principal;
+        font-size: $pequena;
+        font-weight: bold;
+        color: $branco;
+        &:hover {
+          color: $cor-secundaria;
+        }
+      }
+    }
+
+    .informacoes {
+      ul {
+        li {
+          list-style-type: none;
+          display: flex;
+          align-items: center;
+          margin-bottom: 10px;
+          padding-bottom: 5px;
+
+          p {
+            font-size: $pequena;
+            font-family: $fonte-principal;
+          }
+          img {
+            width: 25px;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      ul {
+        display: flex;
+        margin-right: 25px;
+        flex-direction: row-reverse;
+        li {
+          list-style-type: none;
+          padding-right: 10px;
+          img {
+            filter: invert(100%);
+          }
+        }
+      }
+
+      .copyright {
+        margin-top: 10px;
+        p {
+          font-size: $pequena;
+          font-family: $fonte-principal;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+<footer>
+
+    <div class="container">
+        <div class="rotas">
+            <img src="https://i.imgur.com/pydGh2b.png" alt="logo DevSet">
+            <button mat-button routerLink="/">A DevSet</button>
+            <button mat-button routerLink="quem-somos">Imóveis</button>
+            <button mat-button routerLink="contato">Contato</button>
+        </div>
+
+        <div class="informacoes">
+            <ul>
+                <li>
+                    <img src="https://i.imgur.com/g1lnCuu.png" alt="icone de localização">
+                    <p>Avenida Paulista, 1500, São Paulo, Brasil</p>
+                </li>
+                <li>
+                    <img src="https://i.imgur.com/RRWygcr.png" alt="icone de telefone">
+                    <p>(11)4002-8922</p>
+                </li>
+                <li>
+                    <img src="https://i.imgur.com/1jUnZ20.png" alt="icone de email">
+                    <p>devset@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="social-links">
+            <ul>
+                <li *ngFor="let redeSocial of redesSociais">
+                    <a [href]="redeSocial.link" target="_blank">
+                        <img src="{{ redeSocial.icone }}" alt="{{ redeSocial.nome }}" />
+                    </a>
+                </li>
+            </ul>
+            <div class="copyright">
+                <p>Copyright &copy; 2023 | DevSet<br>
+                    Todos os direitos reservados.</p>
+            </div>
+        </div>
+
+    </div>
+</footer>

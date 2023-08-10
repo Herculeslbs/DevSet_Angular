@@ -1,0 +1,30 @@
+@import "../app.component.scss";
+
+mat-toolbar {
+  background-color: $cor-principal;
+  height: 100px;
+  position: sticky;
+  z-index: 10;
+  border-bottom: 5px solid $cor-secundaria;
+  .container {
+    width: 1140px;
+    display: flex;
+    margin: auto;
+    img {
+      width: 100px;
+    }
+    .menu-spacer {
+      flex: 1 1 auto;
+    }
+    button {
+      font-family: $fonte-principal;
+      font-size: $media;
+      margin-top: 10px;
+      font-weight: bold;
+      color: $branco;
+      &:hover {
+        color: $cor-secundaria;
+      }
+    }
+  }
+}
