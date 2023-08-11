@@ -27,8 +27,7 @@ registerLocaleData(ptBr);
   declarations: [
     AppComponent,
     CabecalhoComponent,
-    RodapeComponent,
-    HomeComponent
+    RodapeComponent
   ],
   imports: [
     BrowserModule,

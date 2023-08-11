@@ -2,7 +2,7 @@
   <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://i.imgur.com/TrEYMOp.jpg" alt="imagem da sacada do imovel">
+        <img src="https://i.imgur.com/KOxVFBR.jpg" alt="imagem da sacada do imovel">
       </div>
       <div class="carousel-item">
         <img src="https://i.imgur.com/ZSEQac2.jpg" alt="imagem da sacada do imovel">
@@ -23,4 +23,45 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+</section>
+
+<section class="sobre px-5">
+  <mat-card class="mat-card">
+    <img mat-card-image src="https://i.imgur.com/pydGh2b.png" alt="logo DevSet">
+    <mat-card-content class="mat-card-content">
+      <h2>Sobre a DEVSet</h2>
+      <p>
+        Fundada em 2010, a DEVSet
+        Incorporadora reuniu, ao longo de
+        sua história atuando nas regiões mais
+        nobres de São Paulo, funcionalidade e sofisticação. O seu reconhecimento por parte de
+        clientes,
+        colaboradores e fornecedores é resultado direto da sua filosofia de fornecer uma
+        verdadeira
+        experiência ao cliente, reunindo tanto funcionalidade quanto sofisticação em todos os
+        projetos.
+      </p>
+    </mat-card-content>
+  </mat-card>
+
+</section>
+<div class="h1">
+  <h1>Conteúdos DevSet</h1>
+</div>
+
+
+<section class="conteudo">
+
+  <div>
+    <mat-card class="mat-card" *ngFor="let imovel of imoveis">
+      <img mat-card-image [src]="imovel.foto" alt="imagem ddo imovel">
+      <mat-card-content class="mat-card-content">
+        <h3>{{ imovel.titulo }}</h3>
+        <p>
+          {{ imovel.texto}}
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
 </section>
