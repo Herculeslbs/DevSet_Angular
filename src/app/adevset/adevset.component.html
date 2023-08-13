@@ -1,0 +1,19 @@
+<section class="sobre">
+   <h1>DevSet</h1>
+   <p>Com mais de 10 anos de experiência no mercado, possuímos uma equipe altamente capacitada, que trabalha com seriedade e paixão pelo que faz. Os resultados são sentidos no cuidado especial em cada fase dos projetos, desde a concepção até a entrega e, consequentemente, na satisfação completa dos nossos clientes.</p>
+   <h1>Filosofia</h1>
+   <p> A nossa filosofia é criar imóveis funcionais e sofisticados, que reúnam elegância, conforto e praticidade dentro de um projeto que comporte a vida moderna. Por isso, cada item de um empreendimento de alto padrão com a assinatura DevSet incorpora com minúcia um olhar atento aos detalhes, boa localização e fomento ao bem-estar.</p>
+</section>
+
+<div class="cards">
+    <mat-card class="mat-card" *ngFor="let card of cards">
+      <img mat-card-image [src]="card.foto" alt="imagem ddo imovel">
+      <mat-card-content class="mat-card-content">
+        <p>{{ card.titulo }}</p>
+        <p class="numero">
+          {{ card.numero }}
+        </p>
+        <p> {{ card.texto }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>

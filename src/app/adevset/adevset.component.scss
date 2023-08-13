@@ -1,0 +1,53 @@
+@import "../app.component.scss";
+
+.sobre {
+  padding: 4%;
+  h1 {
+    color: #29c6ed;
+    text-transform: capitalize;
+    font-family: $fonte-principal;
+    font-size: 40px;
+  }
+  p {
+    color: #888888;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: $media;
+    font-family: $fonte-principal;
+  }
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 100px;
+  .mat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #242428;
+    img {
+        margin-bottom: 10px;
+      }
+    .mat-card-content {   
+        text-align: center;
+        padding: 0;
+      .numero {
+        font-size: 75px;
+        font-weight: bold;
+        height: 85px;
+        margin-top: -40px;
+        margin-bottom: 20px;
+        padding-top: 50px;
+        
+      }
+      p {
+        color: #888888;
+        font-size: 18px;
+        font-family: $fonte-principal;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
