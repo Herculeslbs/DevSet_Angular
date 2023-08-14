@@ -1,5 +1,4 @@
 import {  DEFAULT_CURRENCY_CODE, LOCALE_ID, NgModule } from '@angular/core';
-
 import ptBr from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
 
@@ -12,14 +11,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CabecalhoComponent } from './cabecalho/cabecalho.component';
 
-
 // MATERIAL UI
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { RodapeComponent } from './rodape/rodape.component';
-import { AdevsetComponent } from './adevset/adevset.component';
-
 
 registerLocaleData(ptBr);
 
@@ -27,7 +23,8 @@ registerLocaleData(ptBr);
   declarations: [
     AppComponent,
     CabecalhoComponent,
-    RodapeComponent
+    RodapeComponent,
+    
     
   ],
   imports: [
