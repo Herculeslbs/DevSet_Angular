@@ -16,6 +16,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { RodapeComponent } from './rodape/rodape.component';
+import { DetalhesComponent } from './detalhes/detalhes.component';
+import { ContatoComponent } from './contato/contato.component';
 
 registerLocaleData(ptBr);
 
@@ -24,6 +26,8 @@ registerLocaleData(ptBr);
     AppComponent,
     CabecalhoComponent,
     RodapeComponent,
+    DetalhesComponent,
+  
     
     
   ],
