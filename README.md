@@ -1,4 +1,4 @@
-# Projeto Imobiliária Lar Feliz
+# Projeto DevSet
 ## Projeto desenvolvido em Angular pela turma 1029
 
 ![Print do projeto](https://i.imgur.com/kpBoF5I.png)
