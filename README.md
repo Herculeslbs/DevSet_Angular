@@ -1,9 +1,11 @@
-# Projeto Imobiliária Lar Feliz
+# Projeto DevSet
 ## Projeto desenvolvido em Angular pela turma 1029
 
-![Print do projeto](https://i.imgur.com/kpBoF5I.png)]
+![Print do projeto](https://i.imgur.com/kpBoF5I.png)
 
 Este é um projeto desenvolvido em Angular pela turma 1029 da Start Tech TOTVS durante o módulo 03.
+
+Link do site: https://dev-set-angular.vercel.app/
 
 ## Tecnologias Aplicadas
 - Angular
